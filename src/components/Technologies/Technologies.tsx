@@ -3,7 +3,7 @@ import { SectionTitle } from '../../design/atoms/SectionTitle'
 import { TranslucentBox } from '../../design/atoms/TranslucentBox'
 import { SectionTemplate } from '../../design/templates/SectionTemplate'
 import {
-    Technology,
+    type Technology,
     TechnologyGroup,
 } from '../../repositories/local/TechnologyRepository'
 import './Technologies.css'
