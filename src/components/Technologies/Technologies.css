@@ -1,0 +1,43 @@
+.technology-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-areas: 'front front front ' 'styling  back compiler' 'codeVersioning deployment  typing';
+    @media screen and (min-width: 700px) {
+        grid-template-areas: 'front front front styling back deployment' 'compiler codeVersioning typing styling back deployment';
+    }
+}
+
+.front {
+    grid-area: front;
+    padding: 12px;
+}
+
+.back {
+    grid-area: back;
+    padding: 12px;
+}
+
+.styling {
+    grid-area: styling;
+    padding: 12px;
+}
+
+.compiler {
+    grid-area: compiler;
+    padding: 12px;
+}
+
+.typing {
+    grid-area: typing;
+    padding: 12px;
+}
+
+.deployment {
+    grid-area: deployment;
+    padding: 12px;
+}
+
+.codeVersioning {
+    grid-area: codeVersioning;
+    padding: 12px;
+}

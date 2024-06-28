@@ -1,0 +1,45 @@
+{
+    "trustedMe": "They trusted me",
+    "Kanda Health": {
+        "jobTitle": "Développeur fullstack tech lead",
+        "date": "Mars 2024",
+        "companyDescription": "Aider les entreprises à prendre soin de leurs collaborateurs, en leur proposant une démarche de santé, mentale et physique, complète et personnalisée.",
+        "tasks": "Déploiement de la stack sur OVH Cloud HDS | Mise en place CI/CD sur Github"
+    },
+    "WorkAdventure": {
+        "jobTitle": "Lead Tech fullstack developer",
+        "date": "Feb - June 2024",
+        "companyDescription": "Create an innovative and virtual experience to enrich hybrid work, remote work, events and onboarding new employees.",
+        "tasks": "Develop new features such as asset upload, area permissions... | New chat development (UI/Back) with usage of Matrix JS SDK | End-to-end test development with Playwright"
+    },
+    "TakeTurns": {
+        "jobTitle": "Senior Fullstack developer",
+        "date": "Oct 2021 - Feb 2024",
+        "companyDescription": "TakeTurns is a SaaS used to share share, collect, and collaborate on business-critical documents and files with clients, vendors, partners – or any external organization.",
+        "tasks": "Design and implementation of the application's front-end architecture | UI development and user functionalities | GraphQL layer development with AWS Lambdas + AppSync | Tutor for an intern on the mobile application | Interviewing and onboarding a new employee"
+    },
+    "SupGalilée": {
+        "jobTitle": "Advanced Web Programming Teacher",
+        "date": "Nov 2023 - Dec 2023",
+        "companyDescription": "A public engineering school affiliated with the University of Paris Sorbonne Nord.",
+        "tasks": "Teach the principles of advanced web programming using the React (front) and NestJS (back) frameworks | 2nd year engineering cycle studients "
+    },
+    "Tibco Orchestra Networks": {
+        "jobTitle": "Fullstack developer",
+        "date": "Oct 2017 - Oct 2021",
+        "companyDescription": "Software editor who helps build solutions that are essential to the success of the world’s largest enterprises.",
+        "tasks": "Development of new SaaS software for metadata management | Design and development of user interfaces | Design and development of exposed APIs for the UI"
+    },
+    "PwC": {
+        "jobTitle": "Data & Analytics consultant",
+        "date": "Sept 2016 - Oct 2017",
+        "companyDescription": "A major consulting and auditing firm. The Data & Analytics team supports clients in their digital transformation through data, AI, and blockchain.",
+        "tasks": "Design and development of a Python rule engine to simplify data migration | Improvement and bug fixes on accounting reporting applications"
+    },
+    "Micropole": {
+        "jobTitle": "Software engineer",
+        "date": "Apr 2014 - Sept 2016",
+        "companyDescription": "",
+        "tasks": "Development of a software package to manage a retail customer's floor space and sales area data, enabling the calculation of profitability per m2/month | Development of a tool to manage a bank's publishing data"
+    }
+}
