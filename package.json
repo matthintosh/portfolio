@@ -11,6 +11,7 @@
     "pretty": "prettier ./src --write"
   },
   "dependencies": {
+    "@aptabase/react": "^0.3.3",
     "@heroicons/react": "^2.1.1",
     "@jdion/tilt-react": "^1.0.0",
     "@typebot.io/js": "^0.2.85",

@@ -27,7 +27,10 @@ const TechnologiesContent = () => {
                 {technologies
                     .filter((technology) => technology.group === 'front')
                     .map((technology) => (
-                        <div className="flex flex-col items-center">
+                        <div
+                            key={technology.name}
+                            className="flex flex-col items-center"
+                        >
                             <Technology technology={technology} />
                         </div>
                     ))}
@@ -36,35 +39,50 @@ const TechnologiesContent = () => {
                 {technologies
                     .filter((technology) => technology.group === 'back')
                     .map((technology) => (
-                        <Technology technology={technology} />
+                        <Technology
+                            key={technology.name}
+                            technology={technology}
+                        />
                     ))}
             </TechnologyGridElement>
             <TechnologyGridElement gridArea="styling">
                 {technologies
                     .filter((technology) => technology.group === 'styling')
                     .map((technology) => (
-                        <Technology technology={technology} />
+                        <Technology
+                            key={technology.name}
+                            technology={technology}
+                        />
                     ))}
             </TechnologyGridElement>
             <TechnologyGridElement gridArea="compiler">
                 {technologies
                     .filter((technology) => technology.group === 'compiler')
                     .map((technology) => (
-                        <Technology technology={technology} />
+                        <Technology
+                            key={technology.name}
+                            technology={technology}
+                        />
                     ))}
             </TechnologyGridElement>
             <TechnologyGridElement gridArea="typing">
                 {technologies
                     .filter((technology) => technology.group === 'typing')
                     .map((technology) => (
-                        <Technology technology={technology} />
+                        <Technology
+                            key={technology.name}
+                            technology={technology}
+                        />
                     ))}
             </TechnologyGridElement>
             <TechnologyGridElement gridArea="deployment">
                 {technologies
                     .filter((technology) => technology.group === 'deployment')
                     .map((technology) => (
-                        <Technology technology={technology} />
+                        <Technology
+                            key={technology.name}
+                            technology={technology}
+                        />
                     ))}
             </TechnologyGridElement>
             <TechnologyGridElement gridArea="codeVersioning">
@@ -73,7 +91,10 @@ const TechnologiesContent = () => {
                         (technology) => technology.group === 'codeVersioning'
                     )
                     .map((technology) => (
-                        <Technology technology={technology} />
+                        <Technology
+                            key={technology.name}
+                            technology={technology}
+                        />
                     ))}
             </TechnologyGridElement>
         </div>
