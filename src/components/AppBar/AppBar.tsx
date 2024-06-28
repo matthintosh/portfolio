@@ -10,6 +10,8 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import { IconButton } from '../../design/atoms/IconButton'
 import { contactLinks } from './rules/contactLinks'
+import GitHubLogo from '../../assets/logos/GitHub.svg'
+import LinkedInLogo from '../../assets/logos/LinkedIn.svg'
 
 export const AppBar = () => {
     return (
@@ -30,11 +32,8 @@ const NavigationBarLinksWithThemeSwitch = () => {
     const { linkToGihub, linkToLinkedIn } = contactLinks()
     return (
         <div className="flex gap-2">
-            <IconButton src="/img/logos/GitHub.svg" onClick={linkToGihub} />
-            <IconButton
-                src="/img/logos/LinkedIn.svg"
-                onClick={linkToLinkedIn}
-            />
+            <IconButton src={GitHubLogo} onClick={linkToGihub} />
+            <IconButton src={LinkedInLogo} onClick={linkToLinkedIn} />
             <ContactMeButton />
             <ThemeSwitchButton />
             <ChangeLanguage />

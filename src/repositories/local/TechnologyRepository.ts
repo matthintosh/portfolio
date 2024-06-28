@@ -1,4 +1,6 @@
-const baseLogoUrl = '/img/technologies'
+import { baseUrl } from '../../config/baseUrl'
+
+const baseLogoUrl = `${baseUrl}/img/technologies`
 
 export interface Technology {
     name: string

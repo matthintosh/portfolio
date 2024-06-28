@@ -4,6 +4,10 @@ import { SectionTitle } from '../../design/atoms/SectionTitle'
 import { TranslucentBox } from '../../design/atoms/TranslucentBox'
 import { SectionTemplate } from '../../design/templates/SectionTemplate'
 import { useTranslation } from 'react-i18next'
+import NodeLogo from '../../assets/logos/Node.svg'
+import ReactLogo from '../../assets/logos/react.svg'
+import TypescriptLogo from '../../assets/logos/Typescript.svg'
+import ExperienceLogo from '../../assets/logos/Experience.svg'
 
 export const Summary = () => {
     const { t } = useTranslation('summary')
@@ -27,21 +31,21 @@ const SummaryContent = () => {
             <SummaryTranslucentBox>
                 <p className="flex gap-2 text-3xl align-middle flex-wrap">
                     <img
-                        src="/img/logos/Node.svg"
+                        src={NodeLogo}
                         width={'36px'}
                         height={'36px'}
                         alt="NodeJS"
                     />
                     +
                     <img
-                        src="/img/logos/React.svg"
+                        src={ReactLogo}
                         width={'36px'}
                         height={'36px'}
                         alt="React"
                     />
                     +
                     <img
-                        src="/img/logos/Typescript.svg"
+                        src={TypescriptLogo}
                         width={'36px'}
                         height={'36px'}
                         alt="typescript"
@@ -55,11 +59,7 @@ const SummaryContent = () => {
             </SummaryTranslucentBox>
             <SummaryTranslucentBox>
                 <p className="flex gap-2 text-3xl align-middle flex-wrap">
-                    <img
-                        src="/img/logos/Experience.svg"
-                        width={'36px'}
-                        height={'36px'}
-                    />
+                    <img src={ExperienceLogo} width={'36px'} height={'36px'} />
                     <p className="text-xl">{t('experience')}</p>
                     <GrayText className="text-sm">
                         {t('customerTypes')}
