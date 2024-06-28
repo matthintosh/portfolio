@@ -10,7 +10,7 @@
         "jobTitle": "Développeur fullstack tech lead",
         "date": "Février - Juillet 2024",
         "companyDescription": "Créer une expérience virtuelle et innovante pour enrichir le travail hybride, le travail à distance, les événements et l'intégration de nouveaux employés.",
-        "tasks": "Développement de nouvelles fonctionnalités telle que l'upload des asset, les permissions sur les zones... | Développement d'un nouveau chat (UI/Back) via Matrix JS SDK | Développement des tests end-to-end avec Playwright | Intégration de teams"
+        "tasks": "Développement de nouvelles fonctionnalités telles que l'upload des assets, les permissions sur les zones... | Développement d'un nouveau chat (UI/Back) via Matrix JS SDK | Développement des tests end-to-end avec Playwright | Intégration de teams"
     },
     "TakeTurns": {
         "jobTitle": "Développeur fullstack senior",
@@ -22,8 +22,8 @@
     "SupGalilée": {
         "jobTitle": "Enseignant Programmation Web Avancée",
         "date": "Novembre 2023 - Décembre 2023",
-        "companyDescription": "Ecole d'ingénieur publique rattachée l'université Paris Sorbonne Nord.",
-        "tasks": "Enseigner les principes de la programmations web avancées avec les frameworks React (front) et NestJS (back) | Etudiants de 2ème année de cycle ingénieur",
+        "companyDescription": "Ecole d'ingénieur publique rattachée à l'université Paris Sorbonne Nord.",
+        "tasks": "Enseigner les principes de la programmation web avancée avec les frameworks React (front) et NestJS (back) | Etudiants de 2ème année de cycle ingénieur",
         "stack": ""
     },
     "Tibco Orchestra Networks": {
@@ -35,12 +35,12 @@
     "PwC": {
         "jobTitle": "Consultant Data & Analytics",
         "date": "Septembre 2016 - Octobre 2017",
-        "companyDescription": "Grand cabinet de conseil et d'audit. L'equipe Data & Analytics accompagne les clients dans leur transformation digitale via la données, l'IA et la blockchain.",
+        "companyDescription": "Grand cabinet de conseil et d'audit. L'équipe Data & Analytics accompagne les clients dans leur transformation digitale via les données, l'IA et la blockchain.",
         "tasks": "Conception et développement d'un moteur de règle en Python permettant de simplifier la migration des données | Amélioration et corrections de bugs sur des applications de reporting comptable"
     },
     "Micropole": {
         "jobTitle": "Ingénieur développeur logiciel",
         "date": "Avril 2014 - Septembre 2016",
-        "tasks": "Développement d'un logiciel afin de gérer la saisie des surfaces utiles et commercial d'un client Retail permettant ainsi de calculer la rentabilité au m2/mois | Développement d'un outil pour la gestion des données éditiques d'une banque"
+        "tasks": "Développement d'un logiciel afin de gérer la saisie des surfaces utiles et commerciales d'un client Retail permettant ainsi de calculer la rentabilité au m2/mois | Développement d'un outil pour la gestion des données éditiques d'une banque"
     }
 }
