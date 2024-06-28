@@ -18,7 +18,7 @@ export const WorkExperience = ({
                 <img
                     src={logo}
                     alt="brandLogo"
-                    className="self-start max-h-16 object-contain max-w-96"
+                    className="self-start max-h-16 object-contain md:max-w-96"
                 />
                 <p className="font-semibold">
                     {job}
