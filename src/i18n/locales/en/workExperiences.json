@@ -1,10 +1,10 @@
 {
     "trustedMe": "They trusted me",
     "Kanda Health": {
-        "jobTitle": "Développeur fullstack tech lead",
-        "date": "Mars 2024",
-        "companyDescription": "Aider les entreprises à prendre soin de leurs collaborateurs, en leur proposant une démarche de santé, mentale et physique, complète et personnalisée.",
-        "tasks": "Déploiement de la stack sur OVH Cloud HDS | Mise en place CI/CD sur Github"
+        "jobTitle": "Lead Tech fullstack developer",
+        "date": "March 2024",
+        "companyDescription": "Helping companies take care of their employees by offering a comprehensive and personalized approach to mental and physical health.",
+        "tasks": "Deployment on OVH Cloud HDS | Creation of the CI/CD on Github"
     },
     "WorkAdventure": {
         "jobTitle": "Lead Tech fullstack developer",

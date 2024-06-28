@@ -71,7 +71,10 @@ const workExperiencesLogos: {
 const workExperiencesImagesUrl: {
     [key in workExperienceCompany]: string[]
 } = {
-    'Kanda Health': [],
+    'Kanda Health': [
+        `${logoBaseUrl}/kanda/kandaHome.svg`,
+        `${logoBaseUrl}/kanda/kandaRead.svg`,
+    ],
     TakeTurns: [
         `${logoBaseUrl}/taketurns/TT1.png`,
         `${logoBaseUrl}/taketurns/TT2.png`,
@@ -105,7 +108,9 @@ const workExperiencesStacks: {
 const workExperienceLinks: {
     [key in workExperienceCompany]: { title: string; url: string }[]
 } = {
-    'Kanda Health': [],
+    'Kanda Health': [
+        { title: 'KandaHealth', url: 'https://www.kanda-health.com' },
+    ],
     WorkAdventure: [
         { title: 'WorkAdventure', url: 'https://www.workadventure.re' },
         {
