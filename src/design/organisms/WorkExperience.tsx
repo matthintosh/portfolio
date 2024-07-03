@@ -11,6 +11,7 @@ export const WorkExperience = ({
     stack,
     imagesUrls,
     links,
+    contractType,
 }: WorkExperienceType) => {
     return (
         <div className={`flex flex-1 gap-9 flex-wrap `}>
@@ -23,7 +24,7 @@ export const WorkExperience = ({
                 <p className="font-semibold">
                     {job}
                     <GrayText className="text-xs">{date}</GrayText>
-                    <GrayText className="text-xs">Freelance</GrayText>
+                    <GrayText className="text-xs">{contractType}</GrayText>
                 </p>
                 <p>{companyDescription}</p>
                 <p>Missions</p>

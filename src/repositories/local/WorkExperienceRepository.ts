@@ -3,6 +3,7 @@ import { TFunction } from 'i18next'
 export interface WorkExperience {
     name: string
     job: string
+    contractType: string
     date: string
     companyDescription: string
     logo?: string
@@ -28,6 +29,7 @@ export class WorkExperienceRepository {
     ) {
         return {
             job: t(`${company}.jobTitle`),
+            contractType: t(`${company}.contractType`),
             date: t(`${company}.date`),
             tasks: t(`${company}.tasks`).split('|'),
         }
