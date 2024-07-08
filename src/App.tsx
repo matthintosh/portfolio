@@ -14,7 +14,10 @@ function App() {
     const { trackEvent } = useAptabase()
 
     useEffect(() => {
-        trackEvent('visit_portfolio')
+        function delayVisitEvent() {
+            setTimeout(() => trackEvent('visit_portfolio'), 2000)
+        }
+        delayVisitEvent()
     }, [trackEvent])
 
     return (
