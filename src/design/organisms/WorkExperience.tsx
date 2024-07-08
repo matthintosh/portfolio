@@ -21,11 +21,11 @@ export const WorkExperience = ({
                     alt="brandLogo"
                     className="self-start max-h-16 object-contain md:max-w-96"
                 />
-                <p className="font-semibold">
+                <span className="font-semibold">
                     {job}
                     <GrayText className="text-xs">{date}</GrayText>
                     <GrayText className="text-xs">{contractType}</GrayText>
-                </p>
+                </span>
                 <p>{companyDescription}</p>
                 <p>Missions</p>
                 <ul className="mt-2">

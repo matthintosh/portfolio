@@ -58,13 +58,13 @@ const SummaryContent = () => {
                 </GrayText>
             </SummaryTranslucentBox>
             <SummaryTranslucentBox>
-                <p className="flex gap-2 text-3xl align-middle flex-wrap">
+                <div className="flex gap-2 text-3xl align-middle flex-wrap">
                     <img src={ExperienceLogo} width={'36px'} height={'36px'} />
                     <p className="text-xl">{t('experience')}</p>
                     <GrayText className="text-sm">
                         {t('customerTypes')}
                     </GrayText>
-                </p>
+                </div>
             </SummaryTranslucentBox>
         </div>
     )
