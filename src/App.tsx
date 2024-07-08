@@ -7,8 +7,16 @@ import { WorkExperiences } from './components/WorkExperiences/WorkExperiences.ts
 import './i18n/i18n.ts'
 import { Footer } from './components/Footer/Footer.tsx'
 import { ContactMe } from './components/Contact/ContactMe.tsx'
+import { useAptabase } from '@aptabase/react'
+import { useEffect } from 'react'
 
 function App() {
+    const { trackEvent } = useAptabase()
+
+    useEffect(() => {
+        trackEvent('visit_portfolio')
+    }, [trackEvent])
+
     return (
         <MainPage
             NavigationBarSlot={<AppBar />}
