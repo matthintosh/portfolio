@@ -7,14 +7,8 @@ import { WorkExperiences } from './components/WorkExperiences/WorkExperiences.ts
 import './i18n/i18n.ts'
 import { Footer } from './components/Footer/Footer.tsx'
 import { ContactMe } from './components/Contact/ContactMe.tsx'
-import { useEffect } from 'react'
-import { useAptabase } from '@aptabase/react'
 
 function App() {
-    const { trackEvent } = useAptabase()
-    useEffect(() => {
-        trackEvent('AccessPage')
-    }, [trackEvent])
     return (
         <MainPage
             NavigationBarSlot={<AppBar />}

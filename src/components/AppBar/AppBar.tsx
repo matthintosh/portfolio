@@ -9,9 +9,10 @@ import { useThemeSelector } from './rules/useThemeSelector'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import { IconButton } from '../../design/atoms/IconButton'
-import { contactLinks } from './rules/contactLinks'
+import { useContactLinks } from './rules/contactLinks'
 import GitHubLogo from '../../assets/logos/GitHub.svg'
 import LinkedInLogo from '../../assets/logos/LinkedIn.svg'
+import { useAptabase } from '@aptabase/react'
 
 export const AppBar = () => {
     return (
@@ -29,7 +30,7 @@ const NavigationBarContainer = ({ children }: PropsWithChildren) => {
 }
 
 const NavigationBarLinksWithThemeSwitch = () => {
-    const { linkToGihub, linkToLinkedIn } = contactLinks()
+    const { linkToGihub, linkToLinkedIn } = useContactLinks()
     return (
         <div className="flex gap-2">
             <IconButton src={GitHubLogo} onClick={linkToGihub} />
@@ -42,8 +43,14 @@ const NavigationBarLinksWithThemeSwitch = () => {
 }
 
 const ContactMeButton = () => {
+    const { trackEvent } = useAptabase()
+
     return (
-        <a href="#contact-me" className="m-auto">
+        <a
+            href="#contact-me"
+            onClick={() => trackEvent('click_on_contact_me')}
+            className="m-auto"
+        >
             <ChatBubbleLeftIcon className="h-5 w-5" />
         </a>
     )
@@ -52,8 +59,14 @@ const ContactMeButton = () => {
 const ThemeSwitchButton = () => {
     const { theme, changeThemeMode } = useThemeSelector()
 
+    const { trackEvent } = useAptabase()
+
     return (
-        <button onClick={changeThemeMode}>
+        <button
+            onClick={() => {
+                changeThemeMode(), trackEvent('change_theme')
+            }}
+        >
             {theme === 'light' ? (
                 <motion.div animate={{ rotate: 360 }}>
                     <SunIcon className="h-5 w-5" />
