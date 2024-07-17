@@ -10,3 +10,7 @@ export const NavigationBar = ({ children }: PropsWithChildren) => {
         </div>
     )
 }
+
+export const NavigationBarContainer = ({ children }: PropsWithChildren) => {
+    return <div className="flex justify-between">{children}</div>
+}

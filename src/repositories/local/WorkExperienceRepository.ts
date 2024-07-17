@@ -114,7 +114,7 @@ const workExperienceLinks: {
         { title: 'KandaHealth', url: 'https://www.kanda-health.com' },
     ],
     WorkAdventure: [
-        { title: 'WorkAdventure', url: 'https://www.workadventure.re' },
+        { title: 'WorkAdventure', url: 'https://www.workadventu.re' },
         {
             title: 'GitHub',
             url: 'https://github.com/workadventure/workadventure',

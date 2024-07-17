@@ -3,8 +3,10 @@ import {
     SunIcon,
     ChatBubbleLeftIcon,
 } from '@heroicons/react/24/solid'
-import { PropsWithChildren } from 'react'
-import { NavigationBar } from '../../design/organisms/NavigationBar'
+import {
+    NavigationBar,
+    NavigationBarContainer,
+} from '../../design/organisms/NavigationBar'
 import { useThemeSelector } from './rules/useThemeSelector'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
@@ -23,10 +25,6 @@ export const AppBar = () => {
             </NavigationBarContainer>
         </NavigationBar>
     )
-}
-
-const NavigationBarContainer = ({ children }: PropsWithChildren) => {
-    return <div className="flex justify-between">{children}</div>
 }
 
 const NavigationBarLinksWithThemeSwitch = () => {
