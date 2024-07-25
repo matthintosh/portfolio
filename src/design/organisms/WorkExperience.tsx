@@ -60,7 +60,7 @@ export const WorkExperience = ({
                     initial={{ opacity: 0 }}
                     whileInView={{
                         opacity: 1,
-                        transition: { type: 'spring', duration: 2, delay: 1 },
+                        transition: { type: 'spring', duration: 2, delay: 0.5 },
                     }}
                     viewport={{ once: true }}
                     className={
