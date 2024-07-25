@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import { WorkExperience as WorkExperienceType } from '../../repositories/local/WorkExperienceRepository'
 import { ExternalLink } from '../atoms/ExternalLink'
 import { GrayText } from '../atoms/GrayText'
@@ -14,7 +15,15 @@ export const WorkExperience = ({
     contractType,
 }: WorkExperienceType) => {
     return (
-        <div className={`flex flex-1 gap-9 flex-wrap `}>
+        <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{
+                opacity: 1,
+                transition: { type: 'spring', duration: 2 },
+            }}
+            viewport={{ once: true }}
+            className={`flex flex-1 gap-9 flex-wrap `}
+        >
             <div className="flex flex-col gap-2 flex-1">
                 <img
                     src={logo}
@@ -47,7 +56,13 @@ export const WorkExperience = ({
                 </div>
             </div>
             {imagesUrls.length !== 0 && (
-                <div
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{
+                        opacity: 1,
+                        transition: { type: 'spring', duration: 2, delay: 1 },
+                    }}
+                    viewport={{ once: true }}
                     className={
                         'flex-1 grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4'
                     }
@@ -60,8 +75,8 @@ export const WorkExperience = ({
                             alt="image"
                         />
                     ))}
-                </div>
+                </motion.div>
             )}
-        </div>
+        </motion.div>
     )
 }
