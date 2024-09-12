@@ -9,7 +9,9 @@ export const Introduction = () => {
             <div className="flex flex-col">
                 <span className="text-4xl">
                     <RotateText>👋</RotateText>
-                    <p>{t('introduction')}</p>
+                    <p className="bg-gradient-to-br from-[#EF32D9] to-[#00D3CF] inline-block text-transparent bg-clip-text">
+                        {t('introduction')}
+                    </p>
                 </span>
                 <GrayText className="text-3xl">{t('welcome')}</GrayText>
             </div>

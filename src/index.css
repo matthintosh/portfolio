@@ -18,21 +18,3 @@ html {
 body * {
     @apply transition-colors duration-500;
 }
-
-/*.mainBackground {
-    background: #000000; background-image: radial-gradient(at 80.0% 35.0%, #5e1928 0px, transparent 50%),radial-gradient(at 13.0% 49.0%, #2f0f73 0px, transparent 50%),radial-gradient(at 38.0% 97.0%, #2e1418 0px, transparent 50%),radial-gradient(at 34.0% 88.0%, hsl(159, 93%, 23%) 0px, transparent 50%),radial-gradient(at 96.0% 35.0%, hsl(75, 80%, 19%) 0px, transparent 50%)    
-}*/
-
-.mainBackground {
-    background-color: hsla(184, 0%, 0%, 1);
-    background-image: radial-gradient(
-            at 42% 50%,
-            hsla(285, 89%, 22%, 1) 0px,
-            transparent 50%
-        ),
-        radial-gradient(at 63% 78%, hsla(89, 0%, 20%, 1) 0px, transparent 50%),
-        radial-gradient(at 12% 70%, hsla(216, 51%, 13%, 1) 0px, transparent 50%),
-        radial-gradient(at 80% 34%, hsla(229, 93%, 46%, 1) 0px, transparent 50%),
-        radial-gradient(at 23% 16%, hsla(187, 92%, 31%, 1) 0px, transparent 50%),
-        radial-gradient(at 96% 91%, hsla(209, 0%, 0%, 1) 0px, transparent 50%);
-}

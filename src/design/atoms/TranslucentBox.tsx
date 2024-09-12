@@ -9,7 +9,7 @@ export const TranslucentBox = ({
     className?: HTMLProps<HTMLElement>['className']
     noTilt?: boolean
 }>) => {
-    const cssClasses = `bg-white/40 backdrop-blur-xl  w-full dark:bg-[#525252] dark:bg-opacity-40 rounded-md ${className}`
+    const cssClasses = `backdrop-blur-xl  w-full bg-[#151B23] rounded-md ${className} border border-solid border-[0.5px] border-[#3D444D] shadow-lg`
 
     if (noTilt) {
         return <div className={cssClasses}>{children}</div>

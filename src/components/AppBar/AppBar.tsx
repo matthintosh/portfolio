@@ -1,29 +1,39 @@
-import {
-    MoonIcon,
-    SunIcon,
-    ChatBubbleLeftIcon,
-} from '@heroicons/react/24/solid'
+import { ChatBubbleLeftIcon } from '@heroicons/react/24/solid'
 import {
     NavigationBar,
     NavigationBarContainer,
 } from '../../design/organisms/NavigationBar'
-import { useThemeSelector } from './rules/useThemeSelector'
 import { useTranslation } from 'react-i18next'
-import { motion } from 'framer-motion'
+
 import { IconButton } from '../../design/atoms/IconButton'
 import { useContactLinks } from './rules/contactLinks'
 import GitHubLogo from '../../assets/logos/GitHub.svg'
 import LinkedInLogo from '../../assets/logos/LinkedIn.svg'
 import { useAptabase } from '@aptabase/react'
+import gccLogoNoText from '../../assets/logos/LogoGCCNoText.svg'
 
 export const AppBar = () => {
     return (
         <NavigationBar>
             <NavigationBarContainer>
-                <p>Matthieu Rocher</p>
+                <LogoWithText />
                 <NavigationBarLinksWithThemeSwitch />
             </NavigationBarContainer>
         </NavigationBar>
+    )
+}
+
+const LogoWithText = () => {
+    return (
+        <div className="flex items-center">
+            <img
+                src={gccLogoNoText}
+                alt="GeniusCodeCraft logo"
+                width={36}
+                height={36}
+            />
+            <p>Matthieu Rocher</p>
+        </div>
     )
 }
 
@@ -34,7 +44,6 @@ const NavigationBarLinksWithThemeSwitch = () => {
             <IconButton src={GitHubLogo} onClick={linkToGihub} />
             <IconButton src={LinkedInLogo} onClick={linkToLinkedIn} />
             <ContactMeButton />
-            <ThemeSwitchButton />
             <ChangeLanguage />
         </div>
     )
@@ -54,6 +63,8 @@ const ContactMeButton = () => {
     )
 }
 
+/**
+ * Prefered mode is dark by default.
 const ThemeSwitchButton = () => {
     const { theme, changeThemeMode } = useThemeSelector()
 
@@ -77,6 +88,7 @@ const ThemeSwitchButton = () => {
         </button>
     )
 }
+    */
 
 const ChangeLanguage = () => {
     const { i18n } = useTranslation()
