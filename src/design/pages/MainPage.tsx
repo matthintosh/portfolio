@@ -13,6 +13,7 @@ export const MainPage = ({
     ContainerSlot,
     FooterSlot,
 }: MainPageProps) => {
+    console.debug('This is for sample only')
     return (
         <PageTemplate>
             {NavigationBarSlot}
