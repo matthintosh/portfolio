@@ -1,18 +1,25 @@
 {
     "trustedMe": "Ils m'ont fait confiance",
+    "Intly": {
+        "jobTitle": "Intly - Créateur et Developpeur",
+        "contractType": "Projet personnel",
+        "date": "September 2024",
+        "companyDescription": "Intly est une application mobile permettant de créer des histoires pour enfants basées sur les photos et les événements de leur vie quotidienne.",
+        "tasks": "Création du design | Développement de l'application | Déploiement de l'application sur Google Play et Apple Store | Communication avec les utilisateurs afin de réceuillir les avis et les critiques dans l'objectif d'apporter les améliorations appropriées | Mise en place de l'algorithme pour la création des histoires avec l'IA"
+    },
     "Kanda Health": {
         "jobTitle": "Développeur fullstack tech lead",
         "contractType": "Freelance",
         "date": "Mars 2024",
         "companyDescription": "Aider les entreprises à prendre soin de leurs collaborateurs, en leur proposant une démarche de santé, mentale et physique, complète et personnalisée.",
-        "tasks": "Déploiement de la stack sur OVH Cloud HDS | Mise en place CI/CD sur Github"
+        "tasks": "Mise en place de la CI/CD permettant de gagner en efficacité sur le déploiement du Back et de l'application mobile | Refonte du back legacy avec NestJS et Prisma engendrant une simplification de l'application, meilleur compréhension des règles métiers ainsi qu'un gain de temps dans le développement des nouvelles fonctionnalités | Création du Dashboard RH avec NextJS permettant le suivi des indicateurs essentiels à la santé des employés| Mise en place d'une gestion de projet avec Linear afin d'avoir un suivi des tâches et une roadmap produit en lien avec les besoins clients (équipe composée d'un développeur et d'une PO)"
     },
     "WorkAdventure": {
         "jobTitle": "Développeur fullstack tech lead",
         "contractType": "Freelance",
         "date": "Février - Juillet 2024",
         "companyDescription": "Créer une expérience virtuelle et innovante pour enrichir le travail hybride, le travail à distance, les événements et l'intégration de nouveaux employés.",
-        "tasks": "Développement de nouvelles fonctionnalités telles que l'upload des assets, les permissions sur les zones... | Développement d'un nouveau chat (UI/Back) via Matrix JS SDK | Développement des tests end-to-end avec Playwright | Intégration de teams"
+        "tasks": "Développement des nouvelles fonctionnalités comme les zone personnalisées, l'upload d'assets, gestion fine des droits de modifications de la carte| Migration du chat existant basé sur XMPP pour Matrix à l'aide du framework Matrix SDK. Réalisation de l'interface utilisateur et des fonctionnalités d'un chat. L'utilisation de Matrix permet de simplifier l'intégration aux chat externes tels que Discord ou Slack en plus d'apporté une sécurité supplémentaire par l'encryption end-to-end.| Développement des test e2e avec Playwright|Intégration de Microsoft teams afin de synchroniser les status entre WorkAdventure et Teams en plus des conférences avec Teams."
     },
     "TakeTurns": {
         "jobTitle": "Développeur fullstack senior",

@@ -14,6 +14,7 @@ export interface WorkExperience {
 }
 
 type workExperienceCompany =
+    | 'Intly'
     | 'Kanda Health'
     | 'WorkAdventure'
     | 'TakeTurns'
@@ -61,6 +62,7 @@ const logoBaseUrl = 'img/workExperiences'
 const workExperiencesLogos: {
     [key in workExperienceCompany]: string | undefined
 } = {
+    Intly: `${logoBaseUrl}/IntlyLogo.svg`,
     'Kanda Health': `${logoBaseUrl}/KandaHealth.svg`,
     WorkAdventure: `${logoBaseUrl}/WorkAdventure.svg`,
     TakeTurns: `${logoBaseUrl}/TakeTurns.svg`,
@@ -73,6 +75,12 @@ const workExperiencesLogos: {
 const workExperiencesImagesUrl: {
     [key in workExperienceCompany]: string[]
 } = {
+    Intly: [
+        `${logoBaseUrl}/Intly/1.png`,
+        `${logoBaseUrl}/Intly/2.png`,
+        `${logoBaseUrl}/Intly/3.png`,
+        `${logoBaseUrl}/Intly/4.png`,
+    ],
     'Kanda Health': [
         `${logoBaseUrl}/kanda/kandaHome.svg`,
         `${logoBaseUrl}/kanda/kandaRead.svg`,
@@ -96,7 +104,9 @@ const workExperiencesImagesUrl: {
 const workExperiencesStacks: {
     [key in workExperienceCompany]: string
 } = {
-    'Kanda Health': 'OVH Cloud, Nuxt, Github Actions',
+    Intly: 'React native, Expo, Typescript, Supabase, Push notifications, In-app Purchase',
+    'Kanda Health':
+        'OVH Cloud, Nuxt, Github Actions, NestJS, Prisma, Typesrcript, NextJS',
     WorkAdventure:
         'Svelte, Docker, NodeJS, Tailwind, Typescript, Vite, Playwright',
     TakeTurns:
@@ -110,6 +120,20 @@ const workExperiencesStacks: {
 const workExperienceLinks: {
     [key in workExperienceCompany]: { title: string; url: string }[]
 } = {
+    Intly: [
+        {
+            title: 'Intly',
+            url: 'https://www.geniuscodecraft.io/intly',
+        },
+        {
+            title: 'Android',
+            url: 'https://play.google.com/store/apps/details?id=io.geniuscodecraft.intly&pcampaignid=web_share',
+        },
+        {
+            title: 'iOS',
+            url: 'https://apps.apple.com/fr/app/intly/id6736653996',
+        },
+    ],
     'Kanda Health': [
         { title: 'KandaHealth', url: 'https://www.kanda-health.com' },
     ],
@@ -140,6 +164,7 @@ const workExperienceLinks: {
 }
 
 const workExperienceKeys: workExperienceCompany[] = [
+    'Intly',
     'Kanda Health',
     'WorkAdventure',
     'TakeTurns',

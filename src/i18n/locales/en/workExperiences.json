@@ -1,18 +1,25 @@
 {
     "trustedMe": "They trusted me",
+    "Intly": {
+        "jobTitle": "Creator and Developer",
+        "contractType": "Personal project",
+        "date": "September 2024",
+        "companyDescription": "Intly is and application for creating kids story based on their daily life photos and events.",
+        "tasks": "Design creation | Application development | Deployment on Google Play and Apple Store | User feedback collection and integration to improve the application | Setting up the algorithm for creating stories with AI"
+    },
     "Kanda Health": {
         "jobTitle": "Lead Tech fullstack developer",
         "contractType": "Freelance",
         "date": "March 2024",
         "companyDescription": "Helping companies take care of their employees by offering a comprehensive and personalized approach to mental and physical health.",
-        "tasks": "Deployment on OVH Cloud HDS | Creation of the CI/CD on Github"
+        "tasks": "Setting up CI/CD to gain efficiency in deploying the back-end and mobile application | Refactoring the legacy back-end with NestJS and Prisma, leading to a simpler application, better understanding of business rules and gaining time in developing new features | Creating the HR dashboard with NextJS to monitor essential health indicators of employees| Setting up project management with Linear to track tasks and a product roadmap linked to customer needs (team composed of one developer and one PO)"
     },
     "WorkAdventure": {
         "jobTitle": "Lead Tech fullstack developer",
         "contractType": "Freelance",
         "date": "Feb - June 2024",
         "companyDescription": "Create an innovative and virtual experience to enrich hybrid work, remote work, events and onboarding new employees.",
-        "tasks": "Develop new features such as asset upload, area permissions... | New chat development (UI/Back) with usage of Matrix JS SDK | End-to-end test development with Playwright"
+        "tasks": "Development of new features such as custom zones, asset upload, fine-grained map editing rights management| Migration of the existing XMPP-based chat to Matrix using the Matrix SDK. Implementation of the chat user interface and features. Using Matrix allows to simplify integration with external chats such as Discord or Slack while providing additional security through end-to-end encryption| Development of end-to-end tests with Playwright|Integration with Microsoft Teams to synchronize statuses between WorkAdventure and Teams in addition to conferences with Teams."
     },
     "TakeTurns": {
         "jobTitle": "Senior Fullstack developer",
