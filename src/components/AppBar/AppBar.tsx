@@ -40,7 +40,7 @@ const LogoWithText = () => {
 const NavigationBarLinksWithThemeSwitch = () => {
     const { linkToGihub, linkToLinkedIn } = useContactLinks()
     return (
-        <div className="flex gap-2">
+        <div className="flex gap-2 z-10">
             <IconButton src={GitHubLogo} onClick={linkToGihub} />
             <IconButton src={LinkedInLogo} onClick={linkToLinkedIn} />
             <ContactMeButton />

@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { GrayText } from '../../design/atoms/GrayText'
 import { RotateText } from '../../design/animations/RotateText'
+import { BackgroundBeams } from '../../design/animations/BackgroundBeams'
 
 export const Introduction = () => {
     const { t } = useTranslation('introduction')
@@ -15,6 +16,7 @@ export const Introduction = () => {
                 </span>
                 <GrayText className="text-3xl">{t('welcome')}</GrayText>
             </div>
+            <BackgroundBeams />
         </div>
     )
 }

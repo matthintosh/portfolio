@@ -64,7 +64,7 @@ export const WorkExperience = ({
                     }}
                     viewport={{ once: true }}
                     className={
-                        'flex-1 grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4'
+                        'flex-1 grid md:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4'
                     }
                 >
                     {imagesUrls.map((imageUrl) => (
